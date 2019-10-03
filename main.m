@@ -26,7 +26,7 @@ problem=4;
 % Select Mesh type
 % Meshtype 1 - trinagles
 % Meshtype 2 - quadrilaterials (problems 0 & 3 only)
-Meshtype=2;
+Meshtype=1;
 if Meshtype == 2 & problem~=0 & problem~=3
     Meshtype=1;
 end
